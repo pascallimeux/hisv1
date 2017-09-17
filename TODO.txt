@@ -1,0 +1,35 @@
+
+
+cd fabric-sdk-go
+git checkout 4213e7e420e6457d748fdf2285726b4c9f7601f8
+
+govendor init && govendor add +external
+
+
+- passer les arguments
+- faire les tests
+- faire les tests pour les apis
+- mettre des logs
+- intégrer consent
+- mapper les invoke/query sur des web services
+
+
+
+
+
+net_config.yaml = config.yaml
+his_config.yaml
+    - channelID
+    - chaincodeID
+    - userStatePath (enroll repo)
+    etc...
+
+user_context
+   -client
+
+
+
+pour executer une requete il faut (login/password/organisation/chaincodeID)
+    chaincodeID
+    channel
+    eventhub
